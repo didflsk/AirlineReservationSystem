@@ -1,0 +1,7 @@
+Flight,Departure Location,Arrival Location,Departure Time,Arrival Time,Fare
+1,SEA,ORD,1:00,5:00,100
+2,ORD,SEA,2:00,6:00,300
+3,LAX,IAH,3:00,7:00,300
+4,IAH,LAX,4:00,8:00,400
+5,JFK,STL,5:00,9:00,500
+6,STL,JFK,6:00,10:00,800
