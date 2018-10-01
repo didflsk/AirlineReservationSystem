@@ -24,12 +24,19 @@ void Passenger::setSeatNumber(std::string seatNumber)
 	this->seatNumber = seatNumber; 
 }
 
+void Passenger::setConfirmationNumber(int confirmationnumber)
+{
+	this->mConfirmationNumber = confirmationnumber;
+}
+
 void Passenger::print()
 {
-	cout << this->name << " " << this->seatNumber << " " << endl;
+	cout << this->name << " " << this->seatNumber <<" " <<this ->mConfirmationNumber<<" " << endl;
 	flight->print();
 
 }
+
+
 
 string Passenger::getName()
 {
