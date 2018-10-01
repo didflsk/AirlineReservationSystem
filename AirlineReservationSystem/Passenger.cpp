@@ -29,9 +29,13 @@ void Passenger::setConfirmationNumber(int confirmationnumber)
 	this->mConfirmationNumber = confirmationnumber;
 }
 
+int Passenger::getConfirmationNumber() const {
+	return mConfirmationNumber;
+}
+
 void Passenger::print()
 {
-	cout << " Passenger Name: " << this->name << endl << " Passenger Seat: " << this->seatNumber << endl << " Passenger Confiramtion Number " <<this ->mConfirmationNumber<<" " << endl;
+	cout << " Passenger Name: " << this->name << endl << " Passenger Seat: " << this->seatNumber << endl << " Passenger Confirmation Number " <<this ->mConfirmationNumber<<" " << endl;
 	flight->print();
 
 }

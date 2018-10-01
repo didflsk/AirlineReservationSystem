@@ -9,6 +9,7 @@ public:
 	void setFlight(Flight* flight); 
 	void setSeatNumber(std::string seatNumber); 
 	void setConfirmationNumber(int confirmationNumber);
+	int getConfirmationNumber() const;
 	void print(); 
 	std::string getName();
 private:
